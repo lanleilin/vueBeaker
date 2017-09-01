@@ -1,12 +1,12 @@
 <template>
   <div class="accept-container">
     <p>this is home</p>
-    <Dialog msg="hello"></Dialog>
+    <dialog-test msg="hello"></dialog-test>
   </div>
 </template>
 
 <script>
-  import Dialog from '@/components/Dialog'
+  import dialogTest from '@/components/DialogTest'
 
   export default {
     data () {
@@ -14,7 +14,7 @@
       }
     },
     components: {
-      Dialog
+      dialogTest
     }
   }
 </script>

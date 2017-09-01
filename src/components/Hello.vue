@@ -2,13 +2,13 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <router-link :to="{path:'/Dialog'}">dialog</router-link>
+    <router-link :to="{path:'/DialogTest'}">DialogTest</router-link>
     <router-link :to="{path:'/Home'}">home</router-link>
   </div>
 </template>
 
 <script>
-//  import Dialog from '@/components/Dialog'
+//  import DialogTest from '@/components/DialogTest'
   export default {
     name: 'hello',
     data () {

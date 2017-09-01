@@ -1,6 +1,6 @@
 <template>
   <div class="accept-container">
-    <p>this is dialog {{ msg }}</p>
+    <p>this is DialogTest {{ msg }}</p>
   </div>
 </template>
 

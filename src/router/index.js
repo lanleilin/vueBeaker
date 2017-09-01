@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import Dialog from '@/components/Dialog'
+import DialogTest from '@/components/DialogTest'
 import Home from '@/components/Home'
 
 Vue.use(Router)
@@ -19,9 +19,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/Dialog',
-      name: 'Dialog',
-      component: Dialog
+      path: '/DialogTest',
+      name: 'DialogTest',
+      component: DialogTest
     }
   ]
 })
