@@ -1,18 +1,22 @@
 <template>
   <div class="hello">
-      <p>{{msgFather}}</p>
+    <h1>{{ msg }}</h1>
+    <h2>Essential Links</h2>
+    <router-link :to="{path:'/Dialog'}">dialog</router-link>
+    <router-link :to="{path:'/Home'}">home</router-link>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'hello',
-  data () {
-    return {
+//  import Dialog from '@/components/Dialog'
+  export default {
+    name: 'hello',
+    data () {
+      return {
+        msg: 'Welcome to Your Vue.js App'
+      }
     }
-  },
-  props:['msgFather']
-}
+  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

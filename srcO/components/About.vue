@@ -5,8 +5,13 @@
 </template>
 
 <script>
+//  import child from  './components/child'
+
   export default {
-    name: 'about'
+    name: 'about',
+//    components:{
+//      child
+//    }
   }
 </script>
 <!-- styling for the component -->
